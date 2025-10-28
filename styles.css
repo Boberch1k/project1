@@ -1,0 +1,15 @@
+.flex_container{
+    display: flex;
+    flex-direction: row;
+}
+.flex_item{
+    flex: 1;
+}
+.flex_logo{
+    flex: 1;
+    font-family: Roboto;
+}
+.logo_links{
+    justify-content: flex-end;
+    align-content: center;
+}
