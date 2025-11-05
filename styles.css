@@ -1,15 +1,92 @@
-.flex_container{
+html{
+    font-family: Roboto;
+}
+.flex_logocontainer{
     display: flex;
     flex-direction: row;
+    background-color: #1F2937;
+    color: #F9FAF8;
 }
 .flex_item{
     flex: 1;
 }
 .flex_logo{
-    flex: 1;
-    font-family: Roboto;
+    flex: 3 1 0;
+    margin-left: 150px;
 }
 .logo_links{
-    justify-content: flex-end;
-    align-content: center;
+    display: flex;
+    flex: 1;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 100px;
+}
+.flex_cont1{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    color: #F9FAF8;
+    background-color: #1F2937;
+}
+.flex_item1{
+    flex: 1;
+    margin: 150px;
+}
+.flex_img{
+    flex: 1 1 0;
+    margin: 150px;
+    border-radius: 10px;
+}
+.button_sign{
+    background-color: rgb(43, 118, 216);
+    color: #F9FAF8;
+    border-radius: 10px;
+    padding: 10px;
+}
+.flex_infoCont{
+    display: flex;
+    justify-content: space-evenly;
+}
+.flex_infoItem{
+    flex: 0 1 0;
+    border-radius: 15px;
+    text-align: center;
+}
+.infoImg{
+    border: 3px solid rgb(59, 134, 233);
+    border-radius: 15px;
+    flex: 1;
+    width: 220px;
+    height: 200px;
+}
+.flex_phrazCont{
+    display: flex;
+    background-color: #E5E7EB;
+}
+.flex_phrazItem{
+    flex: 1;
+    margin: 200px;
+    font-size: 36px;
+    color: #1F2937;
+}
+.flex_callCont{
+    display: flex;
+    padding: 50px 250px;
+}
+.flex_callItem{
+    flex: 1;
+    background-color: rgb(59, 134, 233);
+    color: #F9FAF8;
+    display: flex;
+}
+.call_info{
+    flex: 1;
+    margin: 50px;
+    font-size: 18px;
+}
+.call_button{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
